@@ -746,6 +746,7 @@ label.error {
   height: auto;
 }
 .projects-item {
+  max-width: 250px;
   padding-top: 23px;
   margin-bottom: 55px;
   position: relative;
@@ -1342,6 +1343,10 @@ label.error {
 .object-wrap {
   padding-top: 37px;
 }
+.object-wrap-two {
+  background: url("../images/home-recent-projects-bg.jpg") no-repeat top center;
+  background-size: cover;
+}
 .portfolio-projects-pagination {
   margin-bottom: 85px;
 }
@@ -1359,7 +1364,7 @@ label.error {
   height: 40px;
   text-align: center;
   padding-top: 8px;
-  border: 2px solid #fff;
+  border: 2px solid rgba(225,225,225,0);
 }
 .namber-pagination a {  
   display: block;
@@ -1519,8 +1524,11 @@ label.error {
   border-bottom: 1px dashed #414141;
 }
 .purchase-equipment {
-  padding-top: 40px;
-  margin-bottom: 55px;
+  padding-top: 40px;  
+}
+.purchase-equipment-two {
+  background: url("../images/home-recent-projects-bg.jpg") no-repeat top center;
+  background-size: cover;
 }
 .purchase-equipment__item time {
   font-family: 'Geometria';
