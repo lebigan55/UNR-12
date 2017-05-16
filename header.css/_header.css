@@ -1,0 +1,134 @@
+.main-home-header {	
+	background: url("../images/home-header-bg.jpg") no-repeat top center;
+  	background-size: cover;    
+}
+.main-header {
+	width: 100%;
+	height: auto;
+	min-height: 710px;	
+}
+.navigation-header {
+	padding-top: 20px;
+}
+.logo-top-wrap {
+	text-align: center;		
+}
+.logo-top-wrap img {
+	max-width: 100%;
+	height: auto;
+}
+.logo-top-wrapimg {
+	max-width: 140px;
+	height: auto;
+}
+.logo-top-wrap,
+.nav-wrap,
+.contactc-top-wrap {
+	height: 95px;
+	background: rgba(255,255,255,0.902);
+	border-radius: 4px;
+	padding-top: 18px;
+}
+.top-nav ul {
+	text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.top-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-right: 22px;
+    padding-left: 22px;
+    opacity: 0.5;
+}
+.top-nav ul li a { 
+	font-family: 'Geometria-Medium'; 
+    font-size: 1.6rem;
+    color: #2d2d2d;    
+}
+.top-nav ul li:hover {    
+    opacity: 1;
+}
+.top-nav__list .active {
+	opacity: 1;
+}
+.home-nave,
+.about-nave,
+.portfolio-nave,
+.services-nave,
+.procurement-nave,
+.contacts-nave {
+	max-width: 98px;
+	text-align: center;		
+}
+.home-nave a,
+.about-nave a,
+.portfolio-nave a,
+.services-nave a,
+.procurement-nave a,
+.contacts-nave a {
+	display: block;
+}
+.home-nave a:before {
+	content: url("../images/home-icon.png");
+	display: block;	
+}
+.about-nave a:before {
+	content: url("../images/about-icon.png");
+	display: block;	
+}
+.portfolio-nave a:before {
+	content: url("../images/portfolio-icon.png");
+	display: block;	
+}
+.services-nave a:before {
+	content: url("../images/services-icon.png");
+	display: block;	
+}
+.procurement-nave a:before {
+	content: url("../images/procurement-icon.png");
+	display: block;	
+}
+.contacts-nave a:before {
+	content: url("../images/contacts-icon.png");
+	display: block;	
+}
+.contactc-top-wrap {
+	text-align: right;
+	padding-right: 25px;
+}
+.contact-top-mail {
+	display: block;
+	position: relative;
+}
+.contact-top-mail:before {
+	content: " ";
+    display: block;
+    width: 160px;
+    height: 5px;    
+    border-top: 1px dashed #2d2d2d;
+    position: absolute;
+    right: 0;
+}
+.contactc-top-wrap a span {
+	font-size: 24px;
+}
+.contactc-top-wrap a:hover {
+	color: #a9a9a9;
+}
+.headline-wrap {
+	display: block;
+	text-align: center;	
+}
+.headline-wrap h1 {
+	max-width: 955px;
+	font-family: 'Geometria';
+	font-size: 36px;	
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 185px;
+	margin: 0 auto 50px;
+}
+ 
